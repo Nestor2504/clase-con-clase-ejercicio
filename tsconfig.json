@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",  // Utiliza ECMAScript 2015 o versiones superiores para tener acceso a las últimas características de JavaScript, incluyendo métodos de array modernos.
+      "module": "CommonJS",  // Especifica el sistema de módulos. Puedes cambiarlo si estás utilizando otro sistema, como ES6.
+      "strict": true,  // Activa la comprobación estricta de tipos, lo que te ayudará a evitar errores comunes.
+      "noImplicitAny": true,  // Evita que se permitan tipos implícitos (any). Esto te ayudará a escribir código más seguro.
+      "noImplicitThis": true,  // Comprueba el tipo 'this' en las funciones.
+      "strictNullChecks": true,  // Comprueba nulos y undefined de manera más estricta.
+      "strictFunctionTypes": true,  // Comprueba los tipos de las funciones de manera estricta.
+      "noUnusedLocals": true,  // Genera errores si tienes variables locales no utilizadas.
+      "noUnusedParameters": true,  // Genera errores si tienes parámetros no utilizados en funciones.
+      "esModuleInterop": true,  // Habilita la interoperabilidad con módulos de estilo CommonJS.
+    },
+    "include": [
+      "src/**/*.ts"  // Ajusta esto a la estructura de tu proyecto. Esto especifica qué archivos TypeScript deben ser incluidos en la compilación.
+    ]
+  }
+  
