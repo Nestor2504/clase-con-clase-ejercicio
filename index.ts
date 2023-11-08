@@ -1,4 +1,5 @@
 // crear las clases Edificio, Piso y Departamento aquí
+//este cambio es desde la nube
 class Departamento {
   nombre: string;
   constructor(nom: string) {
